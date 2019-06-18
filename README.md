@@ -14,9 +14,9 @@ This is an implementation of paper "Count Based Exploration with Successor Repre
 - [ ] Add curves and model weights
 
 ### Instructions
-* Environment
-I have provided pre-built environment for Windows and Linuz users
-In `main.py`:`line 29` set the env according to the system you are using
+* Environment<br>
+I have provided pre-built environment for Windows and Linuz users.<br>
+In `main.py` : `line 29` set the env according to the system you are using.<br>
 
 * Run `python -m main.py` to train the agent 
 
