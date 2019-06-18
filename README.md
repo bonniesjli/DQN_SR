@@ -15,8 +15,8 @@ This is an implementation of paper "Count Based Exploration with Successor Repre
 
 ### Instructions
 * Environment<br>
-I have provided pre-built environment for Windows and Linuz users.<br>
-In `main.py` : `line 29` set the env according to the system you are using.<br>
+I have provided pre-built environment for Windows and Linux users. (Sorry Mac peeps)<br>
+In `main.py` : `line 29` set the env accordingly to the system you are using.<br>
 
 * Run `python -m main.py` to train the agent 
 
