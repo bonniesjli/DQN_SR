@@ -26,10 +26,10 @@ print(sys.version)
 if (sys.version_info[0] < 3):
     raise Exception("ERROR: ML-Agents Toolkit (v0.3 onwards) requires Python 3")
 
-# env = UnityEnvironment(file_name = "../../bonnie_envs/pyramid_1l/pyramid.x86_64")
-# env = UnityEnvironment(file_name = "../../bonnie_envs/pyramid_1w/Unity Environment.exe")
-# env = UnityEnvironment(file_name = "../../bonnie_envs/pyramid_window/Unity Environment.exe")
-env = UnityEnvironment(file_name = "../../bonnie_envs/pyramid_linux/pyramid.x86_64")
+# ------------------ FOR WINDOWS ------------------ #
+# env = UnityEnvironment(file_name = "pyramid_window/Unity Environment.exe")
+# ------------------ FOR LINUX -------------------- #
+env = UnityEnvironment(file_name = "pyramid_linux/pyramid.x86_64")
 
 brain_name = env.brain_names[0]
 brain = env.brains[brain_name]
