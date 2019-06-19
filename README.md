@@ -12,6 +12,7 @@ This is an implementation of paper "Count Based Exploration with Successor Repre
 - [ ] Hyperparameter tuning
 - [ ] Feature vector normalization
 - [ ] Add curves and model weights
+- [ ] Documentations
 
 ### Instructions
 * Environment<br>
